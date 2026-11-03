@@ -2,6 +2,11 @@
   "name": "superagent-playground",
   "private": true,
   "type": "module",
-  "scripts": { "test": "node --test" },
-  "engines": { "node": ">=22" }
+  "scripts": {
+    "test": "node --test",
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
 }
